@@ -127,3 +127,25 @@ vi., 13 de may. de 2022 17:49:50:
  tests:  5|3
 total_score: 35/70
 d3444d5
+vi., 13 de may. de 2022 18:53:27: 
+ sudoku.c | 15 +++++++++++++--
+ 1 file changed, 13 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+sudoku.c: In function 'print_node':
+sudoku.c:38:5: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'for'
+     for(i=0;i<9;i++){
+     ^~~
+sudoku.c:38:14: error: statement with no effect [-Werror=unused-value]
+     for(i=0;i<9;i++){
+             ~^~
+sudoku.c:38:20: error: expected ';' before ')' token
+     for(i=0;i<9;i++){
+                    ^
+sudoku.c:38:20: error: expected statement before ')' token
+sudoku.c:39:12: error: 'j' undeclared (first use in this function)
+        for(j=0;j<9;j++)
+            ^
+sudoku.c:39:12: note: each undeclared identifier is reported only once for each function it appears in
+cc1.exe: all warnings being treated as errors
+Compilation failed
+8acfcfe
