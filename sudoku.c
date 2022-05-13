@@ -52,7 +52,7 @@ int is_valid(Node* n){
          repe[n->sudo[i][j]]++;
        }
        int correcto = 1;
-       for (k= 1; k<10; k++){
+       for (k= 1; k < 9  ; k++){
          if(repe[k] > 1){correcto = 0;} if (correcto  == 0) {return 0;}
        }
    }
