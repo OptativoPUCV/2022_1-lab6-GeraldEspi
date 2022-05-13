@@ -53,6 +53,7 @@ int is_valid(Node* n){
        for (k= 1; k < 9  ; k++){
          if(repe[k] > 1){return 0;} 
        }
+       free(repe);
    }
 
    for(j = 0; j < 9 ; j++){
@@ -63,6 +64,8 @@ int is_valid(Node* n){
        for (k= 1; k < 9  ; k++){
          if(repe[k] > 1){return 0;} 
        }
+       free(repe);
+
    }
 
    for(k = 0; k < 9; k++){
@@ -76,6 +79,7 @@ int is_valid(Node* n){
 
          }   
     }
+    free(repe);
    }
     return 1;
 }
