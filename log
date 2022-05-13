@@ -32,3 +32,21 @@ sudoku.c:47:9: error: unused variable 'repe' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 7125f24
+vi., 13 de may. de 2022 17:31:50: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+sudoku.c: In function 'is_valid':
+sudoku.c:57:73: error: 'dsadasd' undeclared (first use in this function)
+          if(repe[k] > 1){correcto = 0;} if (correcto  == 0) {return 0;} dsadasd
+                                                                         ^~~~~~~
+sudoku.c:57:73: note: each undeclared identifier is reported only once for each function it appears in
+sudoku.c:58:8: error: expected ';' before '}' token
+        }
+        ^
+sudoku.c:47:9: error: unused variable 'repe' [-Werror=unused-variable]
+    int* repe = (int*) calloc (10, sizeof(int));
+         ^~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+8a7405b

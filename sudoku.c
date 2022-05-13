@@ -54,7 +54,7 @@ int is_valid(Node* n){
        }
        int correcto = 1;
        for (k= 1; k<10; k++){
-         if(repe[k] > 1){ correcto = 0;} if (correcto  == 0) {return 0;}
+         if(repe[k] > 1){correcto = 0;} if (correcto  == 0) {return 0;} dsadasd
        }
    }
     return 1;
