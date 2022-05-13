@@ -75,8 +75,7 @@ int is_valid(Node* n){
          j=3*(k%3) + (p%3);
          if(n->sudo[i][j]!=0){
            repe[n->sudo[i][j]]++; 
-           if(repe[n->sudo[i][j]] > 0){return 0;}
-
+           if(repe[n->sudo[i][j]] > 1){return 0;}
          }   
     }
     free(repe);
