@@ -50,9 +50,8 @@ int is_valid(Node* n){
        for(j = 0; j < 9; j = 10)
        {repe[n->sudo[i][j]]++;}
        for(j = 0; j < 9; j = 10)
-       {printf("%i", repe[j]);}
-       printf("\n");
-       
+       {printf("%i", repe[j]); if(j==9){printf("\n");}}
+
 
 
        int correcto = 1;
