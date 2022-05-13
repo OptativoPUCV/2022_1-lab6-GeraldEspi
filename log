@@ -61,3 +61,9 @@ sudoku.c:47:9: error: unused variable 'repe' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 7aa1e21
+vi., 13 de may. de 2022 17:32:20: 
+ sudoku.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  2|4
+total_score: 15/70
+c551d41
