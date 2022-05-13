@@ -149,3 +149,9 @@ sudoku.c:39:12: note: each undeclared identifier is reported only once for each 
 cc1.exe: all warnings being treated as errors
 Compilation failed
 8acfcfe
+vi., 13 de may. de 2022 18:53:51: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  5|3
+total_score: 35/70
+e10c12c
