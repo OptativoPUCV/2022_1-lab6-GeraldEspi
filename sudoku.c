@@ -45,9 +45,17 @@ void print_node(Node* n){
 
 int is_valid(Node* n){
    int* repe = (int*) calloc (10, sizeof(int));
-   int i;
-   for(i = 0; i < 10; i++){
-     printf("%i",repe[i]);
+   int i, j, k;
+   for(i = 0; i < 9; i++){
+     int* repe = (int*) calloc (10, sizeof(int));
+       for(j = 0; j < 9; j = 10)
+       {
+         repe[n->sudo[i][j]]++;
+       }
+       int correcto = 1;
+       for (k= 1; k<10; k++){
+         if(repe[k] > 1){ correcto = 0;} if (correcto  == 0) {return 0;}
+       }
    }
     return 1;
 }

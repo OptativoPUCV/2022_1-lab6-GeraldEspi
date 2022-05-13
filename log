@@ -21,3 +21,14 @@ vi., 13 de may. de 2022 17:12:19:
  tests:  2|4
 total_score: 15/70
 b35c37f
+vi., 13 de may. de 2022 17:26:57: 
+ sudoku.c | 14 +++++++++++---
+ 1 file changed, 11 insertions(+), 3 deletions(-)
+In file included from test.c:5:0:
+sudoku.c: In function 'is_valid':
+sudoku.c:47:9: error: unused variable 'repe' [-Werror=unused-variable]
+    int* repe = (int*) calloc (10, sizeof(int));
+         ^~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+7125f24
