@@ -155,3 +155,8 @@ vi., 13 de may. de 2022 18:53:51:
  tests:  5|3
 total_score: 35/70
 e10c12c
+vi., 13 de may. de 2022 18:57:16: 
+ sudoku.c | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+ tests:  0|0
+7434bc1
