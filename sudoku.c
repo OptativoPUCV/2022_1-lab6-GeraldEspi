@@ -52,11 +52,8 @@ int is_valid(Node* n){
        for(j = 0; j < 9; j = 10)
        {printf("%i", repe[j]); if(j==8){printf("\n");}}
 
-
-
-       int correcto = 1;
        for (k= 1; k < 9  ; k++){
-         if(repe[k] > 1){correcto = 0;} if (correcto  == 0) {return 0;}
+         if(repe[k] > 1){return 0;} 
        }
    }
     return 1;
